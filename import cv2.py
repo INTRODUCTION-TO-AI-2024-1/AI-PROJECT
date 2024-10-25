@@ -1,6 +1,6 @@
 import cv2
 # Đọc một frame để xử lý (ví dụ frame đã trích xuất)
-frame = cv2.imread('frame_0.jpg')
+frame = cv2.imread('1.jpg')
 
 # Chuyển đổi sang ảnh xám
 gray_frame = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
